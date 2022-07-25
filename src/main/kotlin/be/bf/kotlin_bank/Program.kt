@@ -5,6 +5,7 @@ import be.bf.kotlin_bank.models.Titulaire
 import be.bf.kotlin_bank.models.comptes.Compte
 import be.bf.kotlin_bank.models.comptes.Courant
 import be.bf.kotlin_bank.models.comptes.Epargne
+import java.time.LocalDate
 
 
 fun main() {
@@ -20,4 +21,8 @@ fun main() {
     courant += 25.0
 
     println(courant.solde)
+
+
+
+
 }

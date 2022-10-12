@@ -10,7 +10,7 @@ data class Titulaire(
     //ajout perso Titulaire
     var prenom: String = _prenom
     set(value) {
-        if (value.isNotBlank()){
+        if (value.isNotBlank()) {
             field = value;
         }
     }
